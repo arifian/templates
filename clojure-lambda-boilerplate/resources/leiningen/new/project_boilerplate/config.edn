@@ -1,0 +1,8 @@
+{:env            :dev
+ :datomic-client {:db-name     "znetlocalhost"
+                  :server-type :peer-server
+                  :access-key  "myaccesskey"
+                  :secret      "mysecret"
+                  :endpoint    "localhost:8998"}
+ :s3             {:bucket          ""
+                  :upload-base-dir ""}}
